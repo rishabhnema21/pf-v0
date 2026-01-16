@@ -123,3 +123,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: 'pf-font';
+  src: url("/pf-font1.woff2") format('woff2');
+  font-display: swap
+}
