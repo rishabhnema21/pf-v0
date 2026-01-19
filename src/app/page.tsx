@@ -2,6 +2,7 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Skills from "@/components/Skills";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <main className="w-full flex flex-col space-y-12">
           <Hero />
           <About />
+          <Skills />
         </main>
 
       </div>
