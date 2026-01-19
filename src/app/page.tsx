@@ -4,6 +4,7 @@ import GithubContribution from "@/components/GithubContribution";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
+import Work from "@/components/Work";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           <About />
           <Skills />
           <GithubContribution />
+          <Work />
         </main>
 
       </div>
