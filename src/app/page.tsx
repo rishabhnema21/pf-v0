@@ -1,5 +1,6 @@
 
 import About from "@/components/About";
+import GithubContribution from "@/components/GithubContribution";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
@@ -17,6 +18,7 @@ export default function Home() {
           <Hero />
           <About />
           <Skills />
+          <GithubContribution />
         </main>
 
       </div>
