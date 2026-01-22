@@ -6,6 +6,7 @@ import { CiInstagram } from "react-icons/ci";
 import { FaFileDownload } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import SpotifyPlay from "./SpotifyPlay";
 
 const About = () => {
   const socialLinks = [
@@ -95,6 +96,8 @@ const About = () => {
             ))}
           </ul>
         </div>
+
+        <SpotifyPlay />
       </div>
     </section>
   );
