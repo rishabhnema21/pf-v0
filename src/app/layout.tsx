@@ -6,7 +6,7 @@ import { ReactLenis } from 'lenis/react'
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"], // pick what you need
+  weight: ["300", "400", "500", "700"],
   variable: "--font-ubuntu",
 });
 
@@ -21,8 +21,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rishabh",
-  description: "Building | Learning | Growing",
+  title: "Rishabh Nema",
+  description: "Web Developer exploring React.js, Node.js and the web ecosystem. Building, learning and growing.",
+  openGraph: {
+    title: "Rishabh Nema",
+    description: "Web Developer exploring React.js, Node.js and the web ecosystem. Building, learning and growing.",
+    url: "https://rishabhnema.me",
+    siteName: "Rishabh Nema",
+    images: [
+      {
+        url: "https://rishabhnema.me/ogimage.png",
+        width: 1200,
+        height: 627,
+        alt: "Rishabh Nema Portfolio"
+      }
+    ],
+    type: "website",
+  }
 };
 
 export default function RootLayout({
