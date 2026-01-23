@@ -2,7 +2,16 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
-const workCard = [
+type WorkCard = {
+  title: string;
+  src: string;
+  liveLink: string;
+  sourceLink: string;
+  description: string;
+  tech?: string[];
+};
+
+const workCard: WorkCard[] = [
   {
     title: "the Maharajas",
     src: "/project01.jpeg",
@@ -53,7 +62,7 @@ const Work = () => {
         <div className="w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-3">
             {workCard.map((Work, index) => (
-              <div className="w-full hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all duration-150 ease-in cursor-pointer p-3 rounded-xl flex flex-col items-center">
+              <div key={index} className="w-full hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all duration-150 ease-in cursor-pointer p-3 rounded-xl flex flex-col items-center">
                 <img className="rounded-lg w-full h-3/4" src={Work.src} alt="project " />
                 <div>
                   <h3 className="text-zinc-600 mt-2 font-semibold dark:text-zinc-200 text-xl">

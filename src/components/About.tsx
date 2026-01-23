@@ -7,9 +7,16 @@ import { FaFileDownload } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import SpotifyPlay from "./SpotifyPlay";
+import { ReactNode } from "react";
+
+type SocialLink = {
+  name: string;
+  link: string;
+  icon: ReactNode;
+}
 
 const About = () => {
-  const socialLinks = [
+  const socialLinks: SocialLink[] = [
     {
       name: "Github",
       link: "https://github.com/rishabhnema21",
