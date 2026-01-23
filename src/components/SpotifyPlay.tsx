@@ -11,7 +11,7 @@ const SpotifyPlay = () => {
         <div className="flex justify-center items-center space-x-3">
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md">
             <Image
-              src="/spotifyImagePlaceholder.jfif"
+              src="/spotifyImagePlaceholder.webp"
               alt="Spotify Image Placeholder"
               width={48}
               height={48}
