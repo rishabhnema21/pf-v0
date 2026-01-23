@@ -44,7 +44,7 @@ const About = () => {
       <div className="flex flex-col tracking-wider">
         <p className="mt-2 text-zinc-700 dark:text-zinc-300">
           I’m a{" "}
-          <span className="text-zinc-800 dark:text-zinc-200 text-xl font-[pf-font]">
+          <span className="text-zinc-800 dark:text-zinc-100 font-ubuntu">
             full-stack developer
           </span>{" "}
           who builds reliable web applications end-to-end — from concept to
@@ -62,7 +62,7 @@ const About = () => {
           </button>
 
           {resume && (
-            <div className="fixed inset-0 bg-[#F8F8F8] dark:bg-[#181818] flex items-center justify-center">
+            <div className="fixed inset-0 z-50 bg-[#F8F8F8] dark:bg-[#181818] flex items-center justify-center">
               <div className="h-[90%] w-[95%] max-w-3xl bg-zinc-300 dark:bg-zinc-200 rounded-xl overflow-hidden relative shadow-lg">
                 <button
                   className="absolute top-4 bg-zinc-300 h-8 w-8 flex justify-center items-center rounded-full text-zinc-800 right-4 hover:bg-zinc-400 transition-all duration-200 ease-in cursor-pointer"

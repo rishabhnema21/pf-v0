@@ -2,7 +2,7 @@ import { FaQuoteLeft } from "react-icons/fa6";
 
 const Quote = () => {
   return (
-    <section className="w-full">
+    <section className="w-full py-9">
       <div className="flex flex-col md:flex-row justify-between md:items-end tracking-wider">
         <div className="">
           <FaQuoteLeft className="h-12 text-zinc-600 dark:text-zinc-500 text-3xl opacity-50"/>

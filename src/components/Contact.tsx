@@ -44,10 +44,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full">
+    <section id="connect" className="w-full">
       <div className="flex flex-col tracking-wider">
         <div className="mb-5">
-          <h2 className="text-zinc-600 dark:text-zinc-200 text-2xl font-[pf-font]">
+          <h2 className="text-zinc-600 dark:text-zinc-200 text-2xl font-ubuntu">
             Connect
           </h2>
           <p className="text-sm opacity-40 text-zinc-700 dark:text-zinc-300">

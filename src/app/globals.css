@@ -124,12 +124,6 @@
   }
 }
 
-@font-face {
-  font-family: 'pf-font';
-  src: url("/pf-font1.woff2") format('woff2');
-  font-display: swap
-}
-
 .no-scrollbar {
   -ms-overflow-style: none;  
   scrollbar-width: none;     
@@ -137,4 +131,8 @@
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;            
+}
+
+.font-ubuntu {
+  font-family: var(--font-ubuntu), system-ui, sans-serif;
 }

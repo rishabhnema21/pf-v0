@@ -14,7 +14,7 @@ const GithubContribution = () => {
   return (
     <section className="w-full">
       <div className="flex flex-col tracking-wider">
-        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-[pf-font]">
+        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-ubuntu">
           Github Contributions
         </h2>
 

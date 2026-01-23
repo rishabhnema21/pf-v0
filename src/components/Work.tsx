@@ -23,13 +23,30 @@ const workCard = [
     tech: ["Next.js", "tailwind", "imagekit"],
   },
 
+  {
+    title: "Grocer",
+    src: "/project03.jpeg",
+    liveLink: "https://grocer-store.vercel.app/",
+    sourceLink: "https://github.com/rishabhnema21/grocer",
+    description: "A Grocery delivery platform that enables users to order groceries online and receive reliable delivery",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Razorpay", "Cloudinary"]
+  },
+
+  {
+    title: "Sutra (on progress)",
+    src: "/project04.jpeg",
+    liveLink: "",
+    sourceLink: "",
+    description: "A web application for discovering, organizing, and reviewing books with a modern user experience.",
+  }
+
 ];
 
 const Work = () => {
   return (
-    <section className="w-full">
+    <section id="work" className="w-full">
       <div className="flex flex-col tracking-wider">
-        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-[pf-font]">
+        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-ubuntu">
           Work
         </h2>
 
@@ -37,7 +54,7 @@ const Work = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-3">
             {workCard.map((Work, index) => (
               <div className="w-full hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all duration-150 ease-in cursor-pointer p-3 rounded-xl flex flex-col items-center">
-                <img className="rounded-lg" src={Work.src} alt="project 1" />
+                <img className="rounded-lg w-full h-3/4" src={Work.src} alt="project " />
                 <div>
                   <h3 className="text-zinc-600 mt-2 font-semibold dark:text-zinc-200 text-xl">
                     {Work.title}

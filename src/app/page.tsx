@@ -11,7 +11,7 @@ import Work from "@/components/Work";
 
 export default function Home() {
   return (
-    <div className="flex selection:bg-zinc-700 selection:text-zinc-300 dark:selection:bg-zinc-300 dark:selection:text-zinc-700 min-h-screen overflow-hidden items-center justify-center bg-[#F8F8F8] font-sans dark:bg-[#181818]">
+    <div className="flex selection:bg-zinc-700 overflow-x-hidden selection:text-zinc-300 dark:selection:bg-zinc-300 dark:selection:text-zinc-700 min-h-screen items-center justify-center bg-[#F8F8F8] font-sans dark:bg-[#181818]">
       <div className="flex min-h-screen w-full max-w-3xl flex-col items-center py-8 px-5 md:px-16 bg-[#F8F8F8] dark:bg-[#181818] sm:items-start">
         <header className="mb-14 w-full">
           <Navbar />

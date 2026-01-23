@@ -27,10 +27,10 @@ const skills: Skill[] = [
   return (
     <section className="w-full flex justify-between items-center">
       <div className="flex flex-col tracking-wider">
-        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-[pf-font]">Stack I Use</h2>
+        <h2 className="text-zinc-600 mb-5 dark:text-zinc-200 text-2xl font-ubuntu">Stack I Use</h2>
         <div className="flex flex-wrap gap-2 md:gap-4">
             {skills.map(({ icon: Icon, name }, index) => (
-              <span className="inline-flex bg-zinc-200 dark:bg-zinc-800 dark:border-zinc-500 text-zinc-700 dark:text-zinc-300 rounded py-1 px-3 text-sm gap-2 items-center hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all duration-150 ease-in">
+              <span key={index} className="inline-flex bg-zinc-200 dark:bg-zinc-800 dark:border-zinc-500 text-zinc-700 dark:text-zinc-300 rounded py-1 px-3 text-sm gap-2 items-center hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all duration-150 ease-in">
                 <Icon /> <span>{name}</span>
               </span>
             ))}
