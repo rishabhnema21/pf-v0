@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Ubuntu } from "next/font/google";
 import "./globals.css";
 import { ReactLenis } from 'lenis/react'
+import { Analytics } from "@vercel/analytics/next"
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({
         <ReactLenis root />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
+            <Analytics />
         </ThemeProvider>
       </body>
     </html>
