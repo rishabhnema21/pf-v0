@@ -42,10 +42,10 @@ const workCard: WorkCard[] = [
   },
 
   {
-    title: "Sutra (on progress)",
+    title: "Sutra",
     src: "/project04.jpeg",
     liveLink: "",
-    sourceLink: "",
+    sourceLink: "https://github.com/rishabhnema21/sutra",
     description: "A web application for discovering, organizing, and reviewing books with a modern user experience.",
   }
 
